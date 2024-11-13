@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>TravelBloom - Contact</title>
+        <link rel="stylesheet" href="./css/styles.css">
+        <link href="./css/bootstrap.min.css" rel="stylesheet">
+        <link href="./icons/font/bootstrap-icons.min.css" rel="stylesheet">
+    </head>
+    <body>
+
+        <nav class="navbar navbar-expand-lg bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand text-light" href="index.html">
+                    <i class="bi bi-globe-americas text-light p-2 h3"></i>
+                    TravelBloom
+                </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active text-light" aria-current="page" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active text-light" aria-current="page" href="about_us.html">About Us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active text-light" aria-current="page" href="contact_us.html">Contact Us</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+
+          <div class="container text-center">
+            <div class="row align-items-start">
+              <div class="col text-light">
+                <div class="ContactUs">
+                  CONTACT US
+                </div>
+
+                <p class="ContactText">
+                  Get in touch...
+                </p>
+              </div>
+              <div class="col">
+                <div class="ContactForm">
+                    <form class="w-100">
+                        <div class="mb-3">
+                            <label for="InputName" class="form-label">Name</label>
+                            <input type="text" class="form-control" id="InputName" placeholder="Enter your Name">
+                        </div>
+                        <div class="mb-3">
+                            <label for="InputEmail" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="InputEmail" placeholder="Enter your Email">
+                        </div>
+                        <div class="mb-3">
+                            <label for="Textarea" class="form-label">Message</label>
+                            <textarea class="form-control" id="Textarea" rows="3" placeholder="Your message here"></textarea>
+                        </div>
+
+                        <button type="submit" onClick="thankyou()" class="btn btn-primary">Submit</button>
+                    </form>
+                </div>
+              </div>
+            </div>
+            <div>
+                <i class="bi bi-twitter-x text-light p-2 h3"></i>
+                <i class="bi bi-instagram text-light p-2 h3"></i>
+                <i class="bi bi-facebook text-light p-2 h3"></i> 
+                <i class="bi bi-youtube text-light p-2 h3"></i> 
+            </div>
+          </div>
+        <script src="./js/travelBloom_scripts.js"></script>
+        <script src="./js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>

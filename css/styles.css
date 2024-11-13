@@ -1,0 +1,108 @@
+
+body {
+    background-image: url('../images/960x0.webp');
+    background-size: cover; 
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+  }
+  
+  .ExploreDreamDestination {
+    color: white;
+    font-size: 75px;
+    font-weight: bold;
+    text-align: left;
+    padding: 20px;
+  }
+
+  .HomeText {
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: left;
+    padding: 20px;
+  }
+
+  .About {
+    color: white;
+    font-size: 75px;
+    font-weight: bold;
+    text-align: left;
+    padding: 15px;
+  }
+
+  .AboutParagraph {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    font-size: 15px;
+    font-weight: bold;
+    text-align: left;
+    padding: 20px;
+    margin-bottom: 0px;
+    border-radius: 15px;
+  }
+
+  .OurTeam {
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: left;
+    padding: 15px;
+  }
+
+  .TeamMember {
+    color: white;
+    text-align: left;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 15px;
+    padding: 15px;
+  }
+
+  .ResponsibleFor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    background-color: mediumblue;
+    border: 3px solid white;
+    border-radius: 5px;
+    margin: 15px;
+    padding: 5px;
+  }
+
+  .ContactUs {
+    color: white;
+    font-size: 75px;
+    font-weight: bold;
+    display: flex;   
+    align-items: center;
+    text-align: left;   
+    height: 475px;
+    padding: 20px;
+  }
+
+  .ContactText {
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: left;
+    padding: 20px;
+  }
+
+  .ContactForm {
+    color: white;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    text-align: left;   
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 15px;
+    margin-top: 100px;
+    padding: 20px;
+    
+  }
